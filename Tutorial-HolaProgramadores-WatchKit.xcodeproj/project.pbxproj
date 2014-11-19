@@ -13,6 +13,14 @@
 		5BEB02E51A1C3C89007E195A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BEB02E41A1C3C89007E195A /* Images.xcassets */; };
 		5BEB02E81A1C3C89007E195A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BEB02E61A1C3C89007E195A /* LaunchScreen.xib */; };
 		5BEB02F41A1C3C89007E195A /* Tutorial_HolaProgramadores_WatchKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BEB02F31A1C3C89007E195A /* Tutorial_HolaProgramadores_WatchKitTests.swift */; };
+		5BEB03041A1C3D26007E195A /* WatchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BEB03031A1C3D26007E195A /* WatchKit.framework */; };
+		5BEB03091A1C3D26007E195A /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BEB03081A1C3D26007E195A /* InterfaceController.swift */; };
+		5BEB030B1A1C3D26007E195A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BEB030A1A1C3D26007E195A /* Images.xcassets */; };
+		5BEB030F1A1C3D27007E195A /* Tutorial-HolaProgramadores-WatchKit Watch App.app in Resources */ = {isa = PBXBuildFile; fileRef = 5BEB030E1A1C3D27007E195A /* Tutorial-HolaProgramadores-WatchKit Watch App.app */; };
+		5BEB03161A1C3D27007E195A /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BEB03151A1C3D27007E195A /* Interface.storyboard */; };
+		5BEB03181A1C3D27007E195A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BEB03171A1C3D27007E195A /* Images.xcassets */; };
+		5BEB031B1A1C3D27007E195A /* Tutorial-HolaProgramadores-WatchKit WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 5BEB03011A1C3D26007E195A /* Tutorial-HolaProgramadores-WatchKit WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		5BEB03241A1C3F3E007E195A /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BEB03231A1C3F3E007E195A /* logo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,7 +31,35 @@
 			remoteGlobalIDString = 5BEB02D71A1C3C88007E195A;
 			remoteInfo = "Tutorial-HolaProgramadores-WatchKit";
 		};
+		5BEB03101A1C3D27007E195A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5BEB02D01A1C3C88007E195A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5BEB030D1A1C3D27007E195A;
+			remoteInfo = "Tutorial-HolaProgramadores-WatchKit Watch App";
+		};
+		5BEB03191A1C3D27007E195A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5BEB02D01A1C3C88007E195A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5BEB03001A1C3D26007E195A;
+			remoteInfo = "Tutorial-HolaProgramadores-WatchKit WatchKit Extension";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5BEB03221A1C3D27007E195A /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				5BEB031B1A1C3D27007E195A /* Tutorial-HolaProgramadores-WatchKit WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		5BEB02D81A1C3C88007E195A /* Tutorial-HolaProgramadores-WatchKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tutorial-HolaProgramadores-WatchKit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -36,6 +72,16 @@
 		5BEB02ED1A1C3C89007E195A /* Tutorial-HolaProgramadores-WatchKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tutorial-HolaProgramadores-WatchKitTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BEB02F21A1C3C89007E195A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5BEB02F31A1C3C89007E195A /* Tutorial_HolaProgramadores_WatchKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tutorial_HolaProgramadores_WatchKitTests.swift; sourceTree = "<group>"; };
+		5BEB03011A1C3D26007E195A /* Tutorial-HolaProgramadores-WatchKit WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Tutorial-HolaProgramadores-WatchKit WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BEB03031A1C3D26007E195A /* WatchKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchKit.framework; path = System/Library/Frameworks/WatchKit.framework; sourceTree = SDKROOT; };
+		5BEB03071A1C3D26007E195A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BEB03081A1C3D26007E195A /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		5BEB030A1A1C3D26007E195A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5BEB030E1A1C3D27007E195A /* Tutorial-HolaProgramadores-WatchKit Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tutorial-HolaProgramadores-WatchKit Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BEB03141A1C3D27007E195A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BEB03151A1C3D27007E195A /* Interface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Interface.storyboard; sourceTree = "<group>"; };
+		5BEB03171A1C3D27007E195A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5BEB03231A1C3F3E007E195A /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +99,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5BEB02FE1A1C3D26007E195A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BEB03041A1C3D26007E195A /* WatchKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -61,6 +115,9 @@
 			children = (
 				5BEB02DA1A1C3C88007E195A /* Tutorial-HolaProgramadores-WatchKit */,
 				5BEB02F01A1C3C89007E195A /* Tutorial-HolaProgramadores-WatchKitTests */,
+				5BEB03051A1C3D26007E195A /* Tutorial-HolaProgramadores-WatchKit WatchKit Extension */,
+				5BEB03121A1C3D27007E195A /* Tutorial-HolaProgramadores-WatchKit Watch App */,
+				5BEB03021A1C3D26007E195A /* Frameworks */,
 				5BEB02D91A1C3C88007E195A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -70,6 +127,8 @@
 			children = (
 				5BEB02D81A1C3C88007E195A /* Tutorial-HolaProgramadores-WatchKit.app */,
 				5BEB02ED1A1C3C89007E195A /* Tutorial-HolaProgramadores-WatchKitTests.xctest */,
+				5BEB03011A1C3D26007E195A /* Tutorial-HolaProgramadores-WatchKit WatchKit Extension.appex */,
+				5BEB030E1A1C3D27007E195A /* Tutorial-HolaProgramadores-WatchKit Watch App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -112,6 +171,51 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		5BEB03021A1C3D26007E195A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5BEB03031A1C3D26007E195A /* WatchKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5BEB03051A1C3D26007E195A /* Tutorial-HolaProgramadores-WatchKit WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				5BEB03081A1C3D26007E195A /* InterfaceController.swift */,
+				5BEB030A1A1C3D26007E195A /* Images.xcassets */,
+				5BEB03061A1C3D26007E195A /* Supporting Files */,
+			);
+			path = "Tutorial-HolaProgramadores-WatchKit WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		5BEB03061A1C3D26007E195A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5BEB03071A1C3D26007E195A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5BEB03121A1C3D27007E195A /* Tutorial-HolaProgramadores-WatchKit Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				5BEB03151A1C3D27007E195A /* Interface.storyboard */,
+				5BEB03171A1C3D27007E195A /* Images.xcassets */,
+				5BEB03231A1C3F3E007E195A /* logo.png */,
+				5BEB03131A1C3D27007E195A /* Supporting Files */,
+			);
+			path = "Tutorial-HolaProgramadores-WatchKit Watch App";
+			sourceTree = "<group>";
+		};
+		5BEB03131A1C3D27007E195A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5BEB03141A1C3D27007E195A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -122,10 +226,12 @@
 				5BEB02D41A1C3C88007E195A /* Sources */,
 				5BEB02D51A1C3C88007E195A /* Frameworks */,
 				5BEB02D61A1C3C88007E195A /* Resources */,
+				5BEB03221A1C3D27007E195A /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				5BEB031A1A1C3D27007E195A /* PBXTargetDependency */,
 			);
 			name = "Tutorial-HolaProgramadores-WatchKit";
 			productName = "Tutorial-HolaProgramadores-WatchKit";
@@ -150,6 +256,39 @@
 			productReference = 5BEB02ED1A1C3C89007E195A /* Tutorial-HolaProgramadores-WatchKitTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		5BEB03001A1C3D26007E195A /* Tutorial-HolaProgramadores-WatchKit WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BEB031F1A1C3D27007E195A /* Build configuration list for PBXNativeTarget "Tutorial-HolaProgramadores-WatchKit WatchKit Extension" */;
+			buildPhases = (
+				5BEB02FD1A1C3D26007E195A /* Sources */,
+				5BEB02FE1A1C3D26007E195A /* Frameworks */,
+				5BEB02FF1A1C3D26007E195A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5BEB03111A1C3D27007E195A /* PBXTargetDependency */,
+			);
+			name = "Tutorial-HolaProgramadores-WatchKit WatchKit Extension";
+			productName = "Tutorial-HolaProgramadores-WatchKit WatchKit Extension";
+			productReference = 5BEB03011A1C3D26007E195A /* Tutorial-HolaProgramadores-WatchKit WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		5BEB030D1A1C3D27007E195A /* Tutorial-HolaProgramadores-WatchKit Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BEB031C1A1C3D27007E195A /* Build configuration list for PBXNativeTarget "Tutorial-HolaProgramadores-WatchKit Watch App" */;
+			buildPhases = (
+				5BEB030C1A1C3D27007E195A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tutorial-HolaProgramadores-WatchKit Watch App";
+			productName = "Tutorial-HolaProgramadores-WatchKit Watch App";
+			productReference = 5BEB030E1A1C3D27007E195A /* Tutorial-HolaProgramadores-WatchKit Watch App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -165,6 +304,12 @@
 					5BEB02EC1A1C3C89007E195A = {
 						CreatedOnToolsVersion = 6.2;
 						TestTargetID = 5BEB02D71A1C3C88007E195A;
+					};
+					5BEB03001A1C3D26007E195A = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					5BEB030D1A1C3D27007E195A = {
+						CreatedOnToolsVersion = 6.2;
 					};
 				};
 			};
@@ -183,6 +328,8 @@
 			targets = (
 				5BEB02D71A1C3C88007E195A /* Tutorial-HolaProgramadores-WatchKit */,
 				5BEB02EC1A1C3C89007E195A /* Tutorial-HolaProgramadores-WatchKitTests */,
+				5BEB03001A1C3D26007E195A /* Tutorial-HolaProgramadores-WatchKit WatchKit Extension */,
+				5BEB030D1A1C3D27007E195A /* Tutorial-HolaProgramadores-WatchKit Watch App */,
 			);
 		};
 /* End PBXProject section */
@@ -202,6 +349,25 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BEB02FF1A1C3D26007E195A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BEB030B1A1C3D26007E195A /* Images.xcassets in Resources */,
+				5BEB030F1A1C3D27007E195A /* Tutorial-HolaProgramadores-WatchKit Watch App.app in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BEB030C1A1C3D27007E195A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BEB03161A1C3D27007E195A /* Interface.storyboard in Resources */,
+				5BEB03181A1C3D27007E195A /* Images.xcassets in Resources */,
+				5BEB03241A1C3F3E007E195A /* logo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,6 +391,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5BEB02FD1A1C3D26007E195A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BEB03091A1C3D26007E195A /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -232,6 +406,16 @@
 			isa = PBXTargetDependency;
 			target = 5BEB02D71A1C3C88007E195A /* Tutorial-HolaProgramadores-WatchKit */;
 			targetProxy = 5BEB02EE1A1C3C89007E195A /* PBXContainerItemProxy */;
+		};
+		5BEB03111A1C3D27007E195A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5BEB030D1A1C3D27007E195A /* Tutorial-HolaProgramadores-WatchKit Watch App */;
+			targetProxy = 5BEB03101A1C3D27007E195A /* PBXContainerItemProxy */;
+		};
+		5BEB031A1A1C3D27007E195A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5BEB03001A1C3D26007E195A /* Tutorial-HolaProgramadores-WatchKit WatchKit Extension */;
+			targetProxy = 5BEB03191A1C3D27007E195A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -336,6 +520,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = "Tutorial-HolaProgramadores-WatchKit/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -346,6 +531,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = "Tutorial-HolaProgramadores-WatchKit/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -386,6 +572,62 @@
 			};
 			name = Release;
 		};
+		5BEB031D1A1C3D27007E195A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = Tutorial_HolaProgramadores_WatchKit_WatchKit_Extension;
+				INFOPLIST_FILE = "Tutorial-HolaProgramadores-WatchKit Watch App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		5BEB031E1A1C3D27007E195A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				IBSC_MODULE = Tutorial_HolaProgramadores_WatchKit_WatchKit_Extension;
+				INFOPLIST_FILE = "Tutorial-HolaProgramadores-WatchKit Watch App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		5BEB03201A1C3D27007E195A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Tutorial-HolaProgramadores-WatchKit WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		5BEB03211A1C3D27007E195A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Tutorial-HolaProgramadores-WatchKit WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -411,6 +653,22 @@
 			buildConfigurations = (
 				5BEB02FB1A1C3C89007E195A /* Debug */,
 				5BEB02FC1A1C3C89007E195A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5BEB031C1A1C3D27007E195A /* Build configuration list for PBXNativeTarget "Tutorial-HolaProgramadores-WatchKit Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BEB031D1A1C3D27007E195A /* Debug */,
+				5BEB031E1A1C3D27007E195A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5BEB031F1A1C3D27007E195A /* Build configuration list for PBXNativeTarget "Tutorial-HolaProgramadores-WatchKit WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BEB03201A1C3D27007E195A /* Debug */,
+				5BEB03211A1C3D27007E195A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
